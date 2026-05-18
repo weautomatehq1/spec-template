@@ -1,0 +1,28 @@
+# OMC internal state — never commit to client repos
+.omc/
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Environment — NEVER commit secrets
+.env
+.env.local
+.env.*.local
+
+# Node / package managers
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+.pnpm-store/
+
+# Editor metadata
+.vscode/
+.idea/
+*.sw?
+
+# OS
+Thumbs.db
